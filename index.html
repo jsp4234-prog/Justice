@@ -3,26 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stand with Jeff Patterson | Federal Civil Rights & Disability Justice</title>
+  <title>Stand with Jeff Patterson | Public Case Overview</title>
 
   <!-- Primary Meta -->
-  <meta name="description" content="Support Jeff Patterson, a pro se litigant in active federal civil rights litigation involving disability and age discrimination. Legal defense fund for court costs and basic survival needs.">
+  <meta name="description" content="Public case overview of Patterson v. USPS: a pro se federal civil rights action involving allegations of disability and age discrimination, with procedural status and support links.">
+  <meta name="author" content="Jeff Patterson">
   <meta name="robots" content="index, follow">
   
-  <!-- UPDATED: Canonical Link now points to your NEW Username URL -->
-  <link rel="canonical" href="https://Justice-For-Jeff.github.io/Justice/">
+  <!-- Mobile Browser Theme Color (Matches Slate-900) -->
+  <meta name="theme-color" content="#0f172a">
   
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+  <!-- Canonical Link (Lowercase Domain, Uppercase Path to match Repo) -->
+  <link rel="canonical" href="https://justice-for-jeff.github.io/Justice/">
+  
+  <!-- Twitter Card Data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stand with Jeff Patterson | Public Case Overview">
+  <meta name="twitter:description" content="Public-facing summary of allegations and procedural history in Patterson v. United States Postal Service.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1200&auto=format&fit=crop">
 
-  <!-- Open Graph -->
+  <!-- Open Graph Data -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Stand with Jeff Patterson | Federal Civil Rights & Disability Justice">
-  <meta property="og:description" content="Supporting a pro se litigant in active federal civil rights litigation involving disability and age discrimination.">
+  <meta property="og:title" content="Stand with Jeff Patterson | Public Case Overview">
+  <meta property="og:description" content="Public-facing summary of allegations and procedural history in Patterson v. United States Postal Service.">
+  <meta property="og:url" content="https://justice-for-jeff.github.io/Justice/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1200&auto=format&fit=crop">
   
-  <!-- UPDATED: Open Graph URL now points to your NEW Username URL -->
-  <meta property="og:url" content="https://Justice-For-Jeff.github.io/Justice/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1080&auto=format&fit=crop">
+  <!-- Favicon (Fully URL Encoded for Maximum Compatibility) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%E2%9A%96%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E">
+
+  <!-- Performance: Preconnect to Font Servers -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -33,7 +45,195 @@
   <style>
     body { font-family: 'Open Sans', sans-serif; }
     h1, h2, h3 { font-family: 'Merriweather', serif; }
-    /* Custom Scrollbar for Transcript */
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen relative">
+
+<!-- Accessibility Skip Link -->
+<a class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-white text-blue-800 p-3 rounded shadow-lg z-50 font-bold" href="#summary">
+  Skip to main content
+</a>
+
+<!-- HERO SECTION -->
+<header role="banner" class="bg-cover bg-center text-white relative" style="background-image: url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1200&auto=format&fit=crop');">
+  <!-- Visually hidden description for screen readers -->
+  <span class="sr-only">Background image: courthouse pillars representing justice.</span>
+  
+  <div class="absolute inset-0 bg-slate-900 bg-opacity-90"></div>
+  
+  <div class="max-w-4xl mx-auto py-16 px-6 text-center relative z-10">
+    <p class="text-blue-100 font-bold tracking-widest uppercase text-sm mb-4">Pending Federal Litigation</p>
+    <h1 class="text-3xl md:text-5xl font-bold mb-4 leading-tight text-white drop-shadow-lg">Stand with Jeff Patterson</h1>
+    <p class="text-lg md:text-xl text-gray-200 mb-6 font-light max-w-2xl mx-auto">Public Case Overview — Patterson v. USPS</p>
+    
+    <p class="text-xs text-gray-400 mb-8 italic">
+      <time datetime="2026-01-31">Last updated: January 31, 2026</time>
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="#support" aria-label="Jump to community support section" class="bg-red-700 text-white px-8 py-3 rounded font-bold hover:bg-red-800 transition shadow-lg text-lg">Community Support</a>
+      <a href="#summary" aria-label="Jump to case summary section" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded font-bold hover:bg-white hover:text-slate-900 transition shadow-lg text-lg">Read Case Summary</a>
+    </div>
+  </div>
+</header>
+
+<main role="main" class="flex-grow">
+<div class="max-w-3xl mx-auto px-6 py-10">
+
+<!-- LEGAL DISCLAIMER -->
+<aside class="bg-slate-100 border-l-4 border-slate-600 p-5 mb-12 rounded text-sm text-slate-700 shadow-sm leading-relaxed">
+  <p class="font-bold mb-2 uppercase tracking-wide text-xs text-slate-500">Disclaimer</p>
+  <p>This webpage provides a public-facing summary of allegations and procedural history drawn from publicly filed court records and the plaintiff’s publicly stated allegations in <em>Patterson v. United States Postal Service</em>. The case is active and pending before the United States District Court. All claims are disputed and subject to judicial determination. Nothing on this page constitutes legal advice.</p>
+</aside>
+
+<!-- VIDEO SECTION -->
+<div class="mb-14 text-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6">
+    <h3 class="text-white text-lg font-bold mb-4">Case Overview: 7-Minute Summary</h3>
+    
+    <!-- Video Player Container (Click-to-Load with Bottom Right Button) -->
+    <div class="relative w-full pb-[56.25%] h-0 rounded-lg overflow-hidden bg-black border border-gray-700 shadow-md group cursor-pointer"
+         onclick="this.innerHTML='<iframe class=\'absolute top-0 left-0 w-full h-full\' src=\'https://www.youtube.com/embed/-2hP1J_Si4Q?autoplay=1&playsinline=1\' title=\'YouTube video player\' frameborder=\'0\' allow=\'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\' allowfullscreen></iframe>'">
+      
+      <!-- Thumbnail Image with Lazy Loading & Referrer Policy -->
+      <img src="https://img.youtube.com/vi/-2hP1J_Si4Q/maxresdefault.jpg" 
+           alt="Video thumbnail — tap to play case overview" 
+           loading="lazy"
+           referrerpolicy="no-referrer"
+           class="absolute top-0 left-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 transition duration-300">
+      
+      <!-- Play Button (Bottom Right) -->
+      <div class="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 pointer-events-none z-10">
+        <div class="bg-red-600 group-hover:bg-red-700 text-white rounded-full p-3 sm:p-4 shadow-2xl transform group-hover:scale-110 transition duration-300 flex items-center justify-center border-2 border-white">
+          <svg class="w-6 h-6 sm:w-8 sm:h-8 ml-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Text Hint -->
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white text-sm font-semibold opacity-0 group-hover:opacity-100 transition duration-300 text-left pl-6 pb-6">
+        Tap to Play
+      </div>
+    </div>
+</div>
+
+<!-- LEGAL NARRATIVE -->
+<section id="summary" class="prose prose-lg max-w-none text-gray-800 space-y-10">
+  
+  <div>
+    <h3 class="text-2xl font-bold text-gray-900 mb-3">Case Summary</h3>
+    <p>Jeff Patterson is a former United States Postal Service (USPS) City Carrier Technician who is proceeding <em>pro se</em> in a federal civil rights action. According to the operative complaint, the lawsuit asserts claims under the Rehabilitation Act, the Age Discrimination in Employment Act (ADEA), and related anti-retaliation provisions of federal law.</p>
+    <p>Mr. Patterson contends that after sustaining a work-related spinal injury, he received documented medical restrictions limiting his work hours and certain physical activities. The complaint alleges that USPS management entered into a written modified-duty agreement acknowledging these restrictions.</p>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-4 mb-3">Injury and Accommodation (Allegations)</h3>
+    <p>Court filings state that in November 2021, Mr. Patterson sustained a lumbar spine injury while performing his duties as a career carrier. Medical providers diagnosed a chronic spinal condition and imposed specific limitations, including limits on daily work hours and physical exertion.</p>
+    <p>According to the complaint, in February 2022 Mr. Patterson and USPS management executed a written modified-duty assignment reflecting these medical restrictions. Plaintiff alleges that this agreement was intended to remain in effect unless formally revised in writing.</p>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-4 mb-3">Alleged Workplace Conduct</h3>
+    <p>The complaint further alleges that beginning in January 2023, USPS management repeatedly assigned Mr. Patterson work in excess of the documented medical limitations. Plaintiff contends that these assignments occurred despite repeated notifications of the restrictions and without issuance of a revised written accommodation.</p>
+    <p>According to the pleadings, time-and-attendance records are cited to support the allegation that work hours exceeded prescribed limits on multiple occasions.</p>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-4 mb-3">Discipline and Termination (Disputed)</h3>
+    <p>Mr. Patterson alleges that the excessive work assignments aggravated his medical condition and resulted in medically necessary absences. The complaint asserts that these absences were subsequently cited as the basis for progressive discipline, including suspensions and, ultimately, termination of employment in 2024.</p>
+    <p class="font-semibold text-gray-900 mt-2">USPS disputes these allegations and denies liability.</p>
+  </div>
+
+  <!-- PERSONAL CONTEXT -->
+  <div>
+    <h3 class="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-4 mb-3">Personal Context</h3>
+    <p>Court filings and plaintiff’s narrative state that these events occurred during a period when Mr. Patterson was providing care for his spouse. The complaint includes allegations related to protected leave and retaliation. These allegations are disputed.</p>
+  </div>
+
+  <div>
+    <h3 class="text-xl font-bold text-gray-900 border-l-4 border-blue-600 pl-4 mb-3">Additional Allegations</h3>
+    <p>The lawsuit also alleges that discriminatory or retaliatory statements were made relating to age, disability, and anticipated use of protected medical leave. These allegations are contested by the defendant.</p>
+  </div>
+
+  <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+    <h3 class="text-lg font-bold text-gray-900 mb-2">Procedural Status</h3>
+    <p class="text-sm">The case is pending before the United States District Court for the Central District of California. Motion practice and discovery are ongoing. No findings of fact or liability have been made by the Court.</p>
+  </div>
+
+  <div class="text-sm text-gray-500 italic border-t pt-6">
+    <strong>Purpose of This Page:</strong> This webpage is intended to provide members of the public, advocates, and potential supporters with a neutral, high-level overview of the nature of the case based on public filings. It does not attempt to resolve factual disputes or predict the outcome of the litigation.
+  </div>
+
+</section>
+
+<!-- COMMUNITY SUPPORT SECTION -->
+<section id="support" class="mt-16 bg-slate-900 text-white rounded-xl shadow-xl p-8 text-center">
+  <h3 class="text-2xl font-bold mb-4">Community Support</h3>
+  <p class="mb-6 text-gray-300 text-sm max-w-2xl mx-auto leading-relaxed">
+    Federal litigation is resource-intensive, particularly for individuals proceeding without counsel. Mr. Patterson has established public crowdfunding campaigns to help offset litigation expenses and basic living costs while the case proceeds.
+  </p>
+  
+  <div class="flex flex-col gap-3 max-w-sm mx-auto mb-6">
+    <!-- GoFundMe (Primary) -->
+    <a href="https://gofund.me/413562e7c" target="_blank" rel="noopener noreferrer"
+       class="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg shadow-lg transition text-base">
+      GoFundMe: Help Jeff Fight Federal Discrimination
+    </a>
+    <!-- Fundrazr (Secondary) -->
+    <a href="https://fnd.us/e2foRe?ref=sh_cEjEk3" target="_blank" rel="noopener noreferrer"
+       class="block w-full bg-transparent border-2 border-gray-500 hover:border-white hover:text-white text-gray-300 font-bold py-2 rounded-lg transition text-sm">
+      FundRazr: Stand With Jeff Patterson
+    </a>
+  </div>
+  
+  <p class="text-xs text-gray-500 italic">
+    Participation is voluntary, and contributions do not imply endorsement of any factual allegations.
+  </p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="mt-12 text-center pb-10 px-4">
+    <h3 class="text-xl font-bold text-gray-900 mb-6">Contact & Media</h3>
+    <div class="flex flex-wrap justify-center gap-4 mb-8">
+        <!-- Email Button -->
+        <a href="mailto:jeffsp3986@gmail.com" 
+           class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow transition transform hover:-translate-y-1">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            Email Jeff
+        </a>
+        
+        <!-- Facebook Button (Clean Link) -->
+        <a href="https://www.facebook.com/jeff.patterson.1029?mibextid=ZbWKwL" 
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center justify-center bg-blue-800 hover:bg-blue-900 text-white font-bold py-3 px-8 rounded-lg shadow transition transform hover:-translate-y-1">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook Profile
+        </a>
+    </div>
+
+    <!-- Verification Section -->
+    <div class="max-w-xl mx-auto border-t border-gray-300 pt-6">
+        <p class="text-xs font-bold text-gray-500 uppercase mb-3">Verification: Public Court Record</p>
+        <a href="https://www.pacermonitor.com/public/case/58465402/Jeff_Patterson_v_United_States_Postal_Service_et_al" 
+           target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-6 rounded shadow text-xs transition">
+           View PACER Monitor Docket
+        </a>
+    </div>
+</section>
+
+</div>
+</main>
+
+<footer class="bg-gray-100 text-gray-500 py-6 text-center px-4 border-t border-gray-200">
+  <p class="text-xs">&copy; 2026 Stand with Jeff Patterson</p>
+</footer>
+
+</body>
+</html>
+
+
     .transcript-scroll::-webkit-scrollbar {
       width: 8px;
     }
